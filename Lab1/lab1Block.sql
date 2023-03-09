@@ -1,7 +1,7 @@
 do
 $$
 DECLARE
-    given_schema text;--varchar(7);
+    given_schema text;
     countTables integer;
     countIndexes integer;
     countColumns integer;
@@ -29,4 +29,4 @@ begin
     END LOOP;
 end;
 $$
-LANGUAGE plpgsql;
+LANGUAGE 'plpgsql';
